@@ -28,6 +28,13 @@ input::placeholder {
   font-size: 20vh;
 }
 
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#login-form > input,
+#login-form > input:focus,
 #todo-form > input,
 #todo-form > input:focus {
   border-top: 0;
@@ -36,4 +43,9 @@ input::placeholder {
   border-left: 0;
   font-size: 2.25em;
   outline: none;
+}
+
+#login-form > input[type="submit"] {
+  border: 0;
+  background: 0 0;
 }
