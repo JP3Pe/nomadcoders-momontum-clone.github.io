@@ -1,6 +1,6 @@
 const weather = document.querySelector("#weather span:first-child");
 const city = document.querySelector("#weather span:last-child");
-const API_KEY = "241051bf13976dd3ddf8b8d9f247255e";
+const API_KEY = "6e5fad47b968e64747ffd18ae06cc08a";
 
 function onGeoOk(position) {
   const lat = position.coords.latitude;
